@@ -1,0 +1,455 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-blend-mode: darken;
+    background:rgba(0,0,0,0.6) url("netflixbackground.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.div2{
+    height: 10px;
+    width:130px;
+    fill: rgb(253, 6, 6);
+    margin-left: 190px;
+    padding-top:36px ;
+}
+.nav{
+    padding-top: 3px;
+    padding-right: 10vh;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div3 i{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 9px;
+    color: white;
+ }
+ select{
+    padding-top:12px;
+    padding-left: 35px; 
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    margin: auto;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+    padding: 6px 25px;
+    
+}
+option{
+    color: black;
+    font-weight: bolder;
+    font-size: medium;   
+}
+.anchor1{
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: red;
+    color:white;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.section1{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 22%;
+    color: white;
+}
+.section1 h1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1 p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+     text-align: center;
+     margin-top: 17px;
+}
+.section1 h3{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ font-weight: lighter;
+ margin-left: 100px;
+ margin-top: 29px;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+}
+.mail input
+{
+  height: 50px;
+  width: 370px;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:lighter;
+  background-color: rgba(0,0,0,0.626);
+  color: white;
+  margin-top: 23px;
+  margin-left: 125px;
+}
+img{
+    height: 20px;
+   padding-left: 10px;
+}
+.mail a{
+    height: fit-content;
+    background-color:red;
+    color: white;
+    padding:14px 35px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 510px;
+    margin-top: 23px;
+
+}
+.mail i{
+   position: absolute;
+   margin-left: 670px;
+   margin-top:40px;
+   font-weight: bold;
+   font-size: 20px;
+}
+.div4{
+    height:600px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    border-left: black;
+    border-right: black;
+}
+.div4 h1{
+    color: white;
+    margin-top: 180px;
+    margin-left: 180px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.div4 h3{
+    color: white;
+    margin-top: 13px;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.vedio1{
+    margin-left: 881px;
+    margin-top: -400px;
+}
+.div5 img{
+    height: 500px;
+    margin-left: 780px;
+    margin-top: -250px;
+}
+.div6{
+    height:600px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    margin-top: -10px;
+    border-left: black;
+    border-right: black;
+}
+.div6 h1{
+    color: white;
+    margin-top: 180px;
+    margin-left: 180px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.div6 h3{
+    color: white;
+    margin-top: 16px;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.vedio2{
+    margin-left: 881px;
+    margin-top: -490px;
+}
+.div6 img{
+    height: 530px;
+    margin-left: 780px;
+    margin-top: -220px;
+    background: transparent;
+}
+.div8{
+    height:600px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    margin-top: -10px;
+    border-left: black;
+    border-right: black;
+   
+}
+.div9 img{
+    height:450px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.div10{
+    color:white;
+    margin-left: 750px;
+    margin-top: -300px;   
+}
+.div10 h1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.div10 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.div12{
+    height:600px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    margin-top: -10px;
+    border-left: black;
+    border-right: black;
+}
+.div13 img{
+    height:440px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.div14 h1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: white;
+    margin-left: 690px;
+    margin-top: -290px;
+}
+.div14 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+    margin-left:690px;
+}
+.div15{
+    position: absolute;
+    height:86px;
+    width:350px;
+    border: 3px solid rgb(33, 26, 26);
+    margin-left: 220px;
+    margin-top: -10px;
+    border-radius: 15px;
+    background-color: black;
+}
+.div15 img{
+    height:65px;
+    width:57px;
+    margin-top: 10px;
+}
+.div15 h3{
+    color: white;
+    margin-left: 85px;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div15 h2{
+    color: rgb(2, 119, 237);
+    font-size: 16px;
+    margin-left: 83px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.div15 input{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -20px;
+}
+.div16{
+    height:880px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    margin-top: -10px;
+    border-left: black;
+    border-right: black;
+}
+.div16 h2{
+    color: rgb(243, 236, 236);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div18 h4{
+    color:white;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: -45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail1 input
+{
+  height: 50px;
+  width: 370px;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:lighter;
+  background-color: rgba(0,0,0,0.626);
+  color: white;
+  margin-top: 23px;
+  margin-left: 500px;
+}
+img{
+    height: 20px;
+   padding-left: 10px;
+}
+.mail1 a{
+    height: fit-content;
+    background-color:red;
+    color: white;
+    padding:14px 35px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 23px;
+
+}
+.mail1 i{
+   position: absolute;
+   margin-left: 162px;
+   margin-top:40px;
+   font-weight: bold;
+   font-size: 20px;
+}
+.div19 {
+    height:500px;
+    width:100%;
+    border: 10px solid rgb(82, 78, 78);
+    background-color:black;
+    margin-top: -10px;
+    border-left: black;
+    border-right: black;
+    font-weight: lighter;
+}
+.div20 h4{
+    color: white;
+    margin-left: 110px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div20 a{
+    color: white;
+}
+.div21{
+    margin-left: 80%;
+    margin-top: 30px;
+}
+.div22{
+    margin-left: 50%;
+    margin-top: -175px;
+}
+.div23 {
+    margin-left: 110px;
+    margin-top: -185px;
+}
+.div24 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div27 i{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 8px;
+    color: white;
+ }
+ .div25{
+    margin-top: 10px;
+    margin-left: 110px;
+ }
+ .div19 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+ }
+ .div16{
+    color: white;
+ }
+ .accordian{
+    max-width: 900px;
+    display: block;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 48px;
+ }
+ .accordian .card{
+    border: 3px solid;
+    margin-bottom: 20px;
+    margin-top:-9px;
+ }
+.accordian .card .card-header h3{
+ cursor: pointer;
+ color:#ffffff;
+ position: relative;
+ background-color:rgba(138, 125, 125, 0.558);
+ margin: 0;
+ padding: 25px 25px;
+}
+.accordian .card .card-header h3 span{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.accordian .card .card-body p{
+    padding: 20px;
+}
+.accordian .card .card-body{
+    font-size: 15px;
+    line-height: 24px;
+    color: white;
+    margin: 0px;
+}
+span{
+   position: absolute;
+   margin-left:855px;
+   margin-top: -40px;
+}
+.accordian .card .card-body{
+    display: none;
+}
